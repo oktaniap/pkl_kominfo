@@ -103,6 +103,8 @@
             }
             if ($status==2||$status==4||$status==5) {
               ?>
+              <br>Tanggal Acc
+              <?php echo date('d F Y', strtotime($row['tgl_acc'])); ?>
               <br>Bidang
               <?php
               echo $row['bidang'];
