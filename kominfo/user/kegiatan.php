@@ -99,7 +99,7 @@
             }if ($status==4) {
               echo "Penilaian dan pemberian sertifikat";
             }if ($status==5) {
-              echo "Magang selesai";
+              echo "Magang selesai, nilai dan sertifikat sudah keluar";
             }
             if ($status==2||$status==4||$status==5) {
               ?>
