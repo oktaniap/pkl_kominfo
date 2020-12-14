@@ -3,7 +3,6 @@ include "../koneksi.php";
 $id_magang=$_POST['id_magang'];
 $id_pemagang=$_POST['id_pemagang'];
 $nilai=$_POST['nilai'];
-$nilai=(int)$nilai;
 $total=count($id_pemagang);
 for ($i=0; $i < $total; $i++) { 
 	$sql="UPDATE `pemagang` SET `nilai`='$nilai[$i]' WHERE id_pemagang='$id_pemagang[$i]'";
